@@ -10,7 +10,7 @@ Salle Informatique : dédiée aux démonstrations et simulations informatiques.
 Comme nous sommes 5 à developper sur ce projet, 
 Il est necessaire d'utiliser les branches sur Git.
 
-Cette documentation a pour but d'expliquer le fonctionnement des branches sur Git lors du développement, afin d'éviter les conflits.
+Cette documentation a pour but d'expliquer le fonctionnement des branches sur Git lors du développement, afin d'éviter les conflits vu qu'on travaille toutes sur le memes projets
 
 ## Structure de branches
 
@@ -114,6 +114,17 @@ git push origin feature/chimie-nouvel-experience
 
 
 Fusion après validation : Une fois approuvée, fusionnez la branche et supprimez-la.
+
+ ## Git et Unity Hub
+ 
+Lorsque qu'on utilises Git et Unity ensemble, chaque branche Git correspond à une version différente du projet Unity. 
+Le changement de branche avec Git permet de basculer entre différentes versions du projet, comme des fonctionnalités en cours de développement ou des corrections de bugs. 
+
+Cependant, Unity génère certains fichiers spécifiques (comme ceux dans les dossiers Library, Temp, et Build, marquée dans le git ignore) qui ne doivent pas être suivis par Git, car ils sont propres à l'environnement local.
+
+Lorsqu'on change de branche avec Git (git checkout nom-de-branche), certains fichiers du projet Unity peuvent être modifiés, comme des scripts, des scènes ou des assets. Unity détecte ces changements automatiquement et peut te demander de recharger le projet pour prendre en compte les nouvelles modifications. Il est important de s'assurer que tout est bien commité avant de changer de branche, pour éviter de perdre des modifications non sauvegardées. Si on changes de branche alors que Unity est ouvert, tu devras souvent cliquer sur "Reload" pour rafraîchir l’éditeur et synchroniser le projet avec la nouvelle branche.
+
+Les conflits peuvent survenir lorsque les mêmes fichiers sont modifiés sur plusieurs branches, et Git te demandera de résoudre ces conflits manuellement. Une fois que tout est en ordre, on peut continuer à travailler dans Unity sur la nouvelle branche
 
 ## Conclusion
 Ce guide fournit un cadre pour organiser le développement sur le projet Unity du laboratoire de sciences. Respecter cette structure permettra de maintenir la qualité et la stabilité du projet tout en facilitant la collaboration nous.
