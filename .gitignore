@@ -4,3 +4,74 @@
 [Bb]uild/
 [Bb]uilds/
 [Aa]ssets/AssetStoreTools*
+
+
+# Ignore auto-generated asset meta data and compiled scripts
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Ignore the Unity build system folder
+[Bb]uild/
+
+# Ignore auto-generated files by Visual Studio and Rider IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.vcxproj
+
+# =============== #
+# Unity specific  #
+# =============== #
+# Ignore Unity's generated lightmaps
+Lightmap-*.png
+
+# Ignore system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore crash reports and temporary files
+.DumpStack.log
+*.stackdump
+
+# Ignore log and backup files
+*.log
+*.bak
+*.old
+*.swp
+
+# =============== #
+# macOS generated #
+# =============== #
+
+# Icon must end with two \r
+Icon
+._*
+
+# Thumbnails
+[Tt]humbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# =============== #
+# Windows generated #
+# =============== #
+*.db
+*.stackdump
