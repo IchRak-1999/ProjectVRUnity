@@ -12,8 +12,7 @@ Il est necessaire d'utiliser les branches sur Git.
 
 Cette documentation a pour but d'expliquer le fonctionnement des branches sur Git lors du développement, afin d'éviter les conflits.
 
-### Structure de branches
-Nous suivons une organisation basée sur le modèle GitFlow, adaptée aux besoins du projet. Voici un résumé des principales branches utilisées :
+## Structure de branches
 
 ### Branches principales
 main  ou master: la branche principale contient le code stable, testé et prêt à être publié. Aucune modification ne doit être faite directement dans cette branche. Tout changement doit passer par une fusion depuis la branche develop ou une branche de correction d'urgence.
