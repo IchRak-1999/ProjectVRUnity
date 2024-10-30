@@ -1,12 +1,6 @@
 # Guide pour l'utilisation de Git
 
 ## Introduction
-Ce projet Unity simule un laboratoire de sciences composé de trois salles distinctes :
-
-Salle de Chimie : dédiée aux expériences chimiques.
-Salle de Physique : dédiée aux expériences en physique.
-Salle Informatique : dédiée aux démonstrations et simulations informatiques.
-
 Comme nous sommes 5 à developper sur ce projet, 
 Il est necessaire d'utiliser les branches sur Git.
 
