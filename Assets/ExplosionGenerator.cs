@@ -7,7 +7,7 @@ public class RandomExplosionSpawner : MonoBehaviour
     public Terrain terrain; // Terrain où les explosions doivent apparaître
     public float heightOffset = 1f; // Décalage vertical pour éviter les collisions avec le terrain
     public float minDelay = 1f; // Délai minimum entre deux explosions
-    public float maxDelay = 5f; // Délai maximum entre deux explosions
+    public float maxDelay = 2f; // Délai maximum entre deux explosions
 
     void Start()
     {
