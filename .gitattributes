@@ -1,0 +1,13 @@
+# Force Git à normaliser les fins de ligne dans le repo à LF
+* text=auto
+
+# Unity-specific file types en LF (Linux-style)
+*.cs      text eol=lf
+*.shader  text eol=lf
+*.meta    text eol=lf
+*.unity   text eol=lf
+*.prefab  text eol=lf
+*.mat     text eol=lf
+*.json    text eol=lf
+*.asmdef  text eol=lf
+*.txt     text eol=lf
